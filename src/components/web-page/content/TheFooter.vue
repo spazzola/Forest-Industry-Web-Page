@@ -1,7 +1,9 @@
 <template>
   <div class="row">
     <footer class="col the-footer">
-      &copy; 2020 Forest Industry S.A. All rights reserved.
+      &copy; 2021 Forest Industry S.A. All rights reserved.
+      <a href="https://www.facebook.com/Forest-Industry-SA-108708038192828" target="_blank"><i class="fa fa-facebook-square"></i></a>
+      
     </footer>
   </div>
 </template>
@@ -18,4 +20,11 @@
   background: rgb(136, 158, 129);
   padding: 0.7rem;
 }
+
+i {
+  font-size: 1.1rem !important;
+  background-color: inherit;
+  margin-left: 0.5%;
+}
+
 </style>

@@ -2,6 +2,9 @@
   <nav-menu></nav-menu>
   <div>
     <h1>Domy z bali</h1>
+
+    <div class="col-lg-6 col-md-6" style="margin: auto;"><a href="#img_4"><img class="img-fluid" src="../../../../assets/loghome1.jpg"></a></div>
+
     <div class="content">
       Obecnie nawiązaliśmy kontakt z naszym partnerem z Rosji działającym w
       branży leśnej co zaowocowało znakomitą współpracą i pojawieniu się jako
@@ -46,20 +49,19 @@
       planecie naliczono około 600 rodzajów roślin iglastych. Najważniejsza i
       najbardziej reprezentatywna ich rodzina to sosnowate: sosny, świerki,
       jodły, modrzewie. Do tej rodziny należy i syberyjski cedr, biolodzy
-      nazywają go syberyjską cedrową sosną. Nasze Polsko- Rosyjskie biuro
-      projektowe jest w stanie spełnić każde oczekiwanie wykonawcy Cedr
+      nazywają go syberyjską cedrową sosną. Nasze Polsko - Rosyjskie biuro
+      projektowe jest w stanie spełnić każde oczekiwanie wykonawcy. Cedr
       syberyjski, którymi dysponujemy jest najwyższej jakości i stanowi
       doskonały pod względem trwałości materiał. Domy powstałe według
       wykorzystywanej przez nas technologii od wielu lat budowane są w Rosji i
       na Syberii, a ich konstrukcje do tej pory nie uległy zniszczeniu.
-      Dodatkowo posiada unikalne właściwości, podnoszące wartość domów z bali.
-      Drewno syberyjskie cieszy się ogromną popularnością ze względu na swoje
-      walory zdrowotne, dzięki którym. dom wykonany z wykorzystaniem cedru
-      zapewnia najwyższą sterylność powietrza, która przewyższa nawet
-      najbardziej restrykcyjne normy Cedr syberyjski to jedno z największych
+      Cedr syberyjski to jedno z największych
       drzew jakie rośnie na Syberii, charakteryzuje się dużą izolacyjnością oraz
       doskonale sprawdza się w mroźnych warunkach, nawet przy temperaturze do
       -50ºC.
+
+      <div class="col-lg-6 col-md-6 img"><a href="#img_4"><img class="img-fluid" src="../../../../assets/loghome2.jpg"></a></div>
+      <div class="col-lg-6 col-md-6 img"><a href="#img_4"><img class="img-fluid" src="../../../../assets/loghome3.jpg"></a></div>
     </div>
   </div>
   <the-footer></the-footer>
@@ -97,6 +99,10 @@ p {
   margin-top: 2rem;
   line-height: 1.5;
   margin-bottom: 5rem;
+}
+
+.img {
+  margin: 2% auto auto auto;
 }
 
 @media (max-width: 1028px) {

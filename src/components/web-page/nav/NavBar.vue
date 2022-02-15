@@ -10,18 +10,18 @@
         <router-link class="nav-link" active-class="active" to="/about">O FIRMIE</router-link>
       </li>
       <li class="nav-item dropdown">
-        <a class="nav-link dropdown-toggle" active-class="active" to="" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+        <router-link class="nav-link dropdown-toggle" active-class="router-link-active" to="" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
           OFERTA
-        </a>
+        </router-link>
         <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-          <router-link class="dropdown-item" to="/offer/woodtrading">Handel drewnem</router-link>
-          <router-link class="dropdown-item" to="/offer/loghomes">Domy z bali</router-link>
-          <a class="dropdown-item" href="#">Polowania w Rosji</a>
-          <a class="dropdown-item" href="#">Strony internetowe / aplikacje</a>
+          <router-link class="dropdown-item" active-class="active" to="/offer/woodtrading">Handel drewnem</router-link>
+          <router-link class="dropdown-item" active-class="active" to="/offer/loghomes">Domy z bali</router-link>
+          <router-link class="dropdown-item" active-class="active" to="/offer/hunting">Polowania w Rosji</router-link>
+          <router-link class="dropdown-item" active-class="active" to="/offer/programming">Strony internetowe / aplikacje</router-link>
         </div>
       </li>
       <li class="nav-item">
-        <router-link class="nav-link" active-class="active" to="/galery">GALERIA</router-link>
+        <router-link class="nav-link" active-class="active" to="/gallery">GALERIA</router-link>
       </li>
       <li class="nav-item">
         <router-link class="nav-link" active-class="active" to="/contact">KONTAKT</router-link>
@@ -59,9 +59,22 @@ nav {
   color: brown;
 }
 
-@media (max-width: 1028px) {
+@media only screen and (min-width: 1285px) and (max-width: 1466px) {
+  .nav-link {
+    font-size: 1rem;
+  }
+}
+
+@media only screen and (min-width: 1029px) and (max-width: 1284px) {
+  .nav-link {
+    font-size: 0.9rem;
+  }
+}
+
+@media only screen and (max-width: 1028px) {
   nav {
     margin: 1rem 0 1rem 0;
   }
 }
+
 </style>

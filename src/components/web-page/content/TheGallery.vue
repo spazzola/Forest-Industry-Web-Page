@@ -25,6 +25,7 @@
             <a href="#_4" class="lightbox trans" id="img_4"><img src="../../../assets/4.jpg"></a>
             <a href="#_5" class="lightbox trans" id="img_5"><img src="../../../assets/5.jpg"></a>
             <a href="#_6" class="lightbox trans" id="img_6"><img src="../../../assets/6.jpg"></a>
+            <a href="#_6" class="lightbox trans" id="img_7"><img src="../../../assets/7.jpg"></a>
 
         </div>
     </div>
@@ -60,6 +61,7 @@ h1 {
   margin: auto;
   margin-top: 2rem;
   line-height: 1.5;
+  margin-bottom: 5rem;
 }
 
 .item {

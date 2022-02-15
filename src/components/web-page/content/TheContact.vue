@@ -1,6 +1,7 @@
 <template>
   <nav-menu></nav-menu>
 
+  <h1>Dane kontaktowe</h1>
   <div class="content">
     <div class="contactTile">
       <h2>Prezes firmy</h2>
@@ -26,6 +27,14 @@
       biuro@forestindustrysa.pl <br />
       <br />
     </div>
+
+    <div class="contactTile">
+      <h2>Oprogramowania komputerowe</h2>
+      Rafał Szczotka <br />
+      tel.: +48 535 099 069 <br />
+      software@forestindustrysa.pl <br />
+      <br />
+    </div>
     <div style="clear: both"></div>
 
     <div class="contactTile">
@@ -34,8 +43,8 @@
       34-370 Rajcza <br />
       NIP: 553 100 62 39 <br />
       IBAN: 18 1020 1390 0000 6702 0642 7589 <br />
+      EUR: 57 1020 1390 0000 6102 0671 3913 <br />
       SWIFT: BPKOPLPW <br />
-      VAT: 23 1020 1390 0000 6502 0642 7597<br />
     </div>
   </div>
   <the-footer></the-footer>
@@ -56,6 +65,13 @@ export default {
 <style scoped>
 .content {
   text-align: center;
+  margin-bottom: 5rem;
+}
+
+h1 {
+  margin-top: 3rem;
+  text-align: center;
+  font-family: "Merriweather", serif;
 }
 
 .contactTile {

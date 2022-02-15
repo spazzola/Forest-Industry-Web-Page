@@ -7,14 +7,18 @@
 
       Posiadamy w ofercie cenne gatunki drewna takie jak: <br />
 
-      <ul style="text-align: left">
-        <li>Dąb</li>
-        <li>Buk</li>
-        <li>Modrzew</li>
-        <li>Jesion</li>
-        <li>Jawor</li>
-        <li>Olcha</li>
-      </ul>
+      <div style="text-align: center; width: 100px;">
+        <ul style="text-align: left">
+          <li>Dąb</li>
+          <li>Buk</li>
+          <li>Modrzew</li>
+          <li>Jesion</li>
+          <li>Jawor</li>
+          <li>Olcha</li>
+          <li>Cedr syberyjski</li>
+        </ul>
+      </div>
+
       <br />
       Ceny ustalane są indiwudalnie, na podstawie ilości zamówionego sortymentu.
       <br />
@@ -40,7 +44,6 @@ export default {
 </script>
 
 <style>
-
 .my-header {
   margin-top: 3rem;
   text-align: center;
@@ -53,6 +56,7 @@ export default {
   margin: auto;
   margin-top: 2rem;
   line-height: 1.5;
+  margin-bottom: 5rem;
 }
 
 @media (max-width: 1028px) {
