@@ -20,7 +20,7 @@
       </div>
 
       <br />
-      Ceny ustalane są indiwudalnie, na podstawie ilości zamówionego sortymentu.
+      Cena jest ustalana indywidualnie, na podstawie ilości zamówionego asortymentu.
       <br />
       Dla stałych klientów gwarancja dostawy każdej ilości drewna w ciągu całego
       roku. <br />
